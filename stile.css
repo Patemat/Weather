@@ -1,0 +1,105 @@
+.body {
+    background-image: url(photo_2025-07-09_18-26-20.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+
+.city {
+    height: 50px;
+    width: 400px;
+    margin-left: 600px;
+    margin-top: 50px;
+    border-radius: 20px 20px 20px 20px;
+    border: solid;
+    border-color: rgba(255, 255, 255, 0.4);
+    background-color: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(3px);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+}
+
+.city:hover {
+    border-color: rgba(35, 35, 35, 0.4);
+    background-color: rgba(54, 54, 54, 0.4);
+    color: white;
+}
+
+.info {
+    display: flex;
+    width: 850px;
+    height: 610px;
+    margin-left: 375px;
+    margin-top: 65px;
+    border-radius: 20px 20px 20px 20px;
+    border: solid;
+    border-width: 1px;
+    border-color: rgba(58, 58, 58, 0.5);
+    backdrop-filter: blur(15px);
+}
+
+.InfoDiv {
+    position: absolute;
+    z-index: 2;
+    width: 380px;
+    height: 120px;
+    border: solid;
+    border-width: 3px;
+    border-color: rgba(95, 95, 95, 0);
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 20px 20px 20px 20px;
+    backdrop-filter: blur(3px);
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: grid;
+    place-items: center;
+    transition: 0.7s;
+}
+
+.InfoDiv:hover {
+   border-color: rgba(95, 95, 95);
+   background-color: rgba(255, 255, 255, 0.8);
+}
+
+#Div1 {
+    top: 35px;
+    left:35px;
+    transition: 0.7s;
+}
+
+#Div2 {
+    top: 35px;
+    left: 430px;
+    transition: 0.7s;
+}
+
+#Div3 {
+    top: 175px;
+    left: 35px;   
+    transition: 0.7s;
+}
+
+#Div4 {
+    top: 175px;
+    left: 430px;
+    transition: 0.7s;
+}
+
+#Div5 {
+    top: 315px;
+    left: 35px;
+    transition: 0.7s;
+}
+
+#Div6 {
+    top: 315px;
+    left: 430px;
+    transition: 0.7s;
+}
+
+#Div7 {
+    top: 455px;
+    left: 35px;
+    width: 775px;
+    transition: 0.7s;
+}
